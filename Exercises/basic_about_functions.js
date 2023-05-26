@@ -1,4 +1,3 @@
-
 function printSum(num1, num2) {
     console.log(num1 + num2)
 }
@@ -22,13 +21,14 @@ printSum(2, 3)
 
 
 //arrow function
-const soma = (a, b) => {
+const sum = (a, b) => {
     return a + b
 }
-console.log(soma(1, 2))
+console.log(sum(1, 2))
 
 
 
 //implicit return
 const subtraction = (a, b) => a - b
 console.log(subtraction(2, 1))
+
